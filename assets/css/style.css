@@ -1,0 +1,16 @@
+body {
+
+}
+
+#container {
+	width: 960px;
+}
+
+header {
+	height: 90px;
+	border: 1px solid #cccccc;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
