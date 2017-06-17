@@ -8,10 +8,11 @@ header {
 }
 
 h1, h2, h3 {
-	font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+	font-family: "Georgia", 'Times', 'Times New Roman', serif;
 }
 
 #divHeader h1 {
 	background-color: #00aba0;
-	font: ffffff;
+	color: #ffffff;
+	font-size: 40px;
 }
