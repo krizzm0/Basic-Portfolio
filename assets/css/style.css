@@ -163,7 +163,6 @@ footer {
 /* Portfolio Page */
 #hangmanImage {
 	background: url("../images/hangman.jpg");
-	border: 1px solid black;
 	width: 290px;
 	height: 200px;
 	background-repeat: no-repeat;
@@ -183,7 +182,6 @@ footer {
 
 #rpgImage {
 	background: url("../images/rpg.jpg");
-	border: 1px solid black;
 	width: 290px;
 	height: 200px;
 	background-repeat: no-repeat;
@@ -203,7 +201,6 @@ footer {
 
 #triviaImage {
 	background: url("../images/trivia.jpg");
-	border: 1px solid black;
 	width: 290px;
 	height: 200px;
 	background-repeat: no-repeat;
@@ -223,7 +220,6 @@ footer {
 
 #widgetImage {
 	background: url("../images/widget.jpg");
-	border: 1px solid black;
 	width: 290px;
 	height: 200px;
 	background-repeat: no-repeat;
@@ -243,7 +239,6 @@ footer {
 
 #rockpaperscissorsImage {
 	background: url("../images/rps.jpg");
-	border: 1px solid black;
 	width: 290px;
 	height: 200px;
 	background-repeat: no-repeat;
@@ -260,3 +255,5 @@ footer {
 	width: 100%;
 	padding: 10px;
 }
+
+/* Contact Page */
