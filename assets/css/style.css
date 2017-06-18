@@ -15,9 +15,37 @@ h2 {
 	margin: auto;
 }
 
+h3 {
+	color: #00aba0;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 2px solid #e2e0db;
+	padding: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 0;
+}
+
+/* Clear Fix for Floats */
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+ 	zoom: 1; /* ie 6/7 */
+}
+
 /* Main Header & Navigation */
 #headerContainer {
-	width: 960px;
+	max-width: 960px;
 	height: 90px;
 	margin: 0 auto;
 	position: relative;
@@ -33,7 +61,7 @@ h2 {
 	position: relative;
 }
 
-#nameHeader h1, h2 {
+#nameHeader h1, h2, h3 {
 	font-family: 'Georgia', 'Times New Roman', serif;
 	font-weight: bold;
 }
@@ -62,10 +90,13 @@ nav ul li a {
 	text-decoration: none;
 }
 
+#contactNav {
+	margin-right: 0px;
+}
+
 /* Main Body */
-#mainContainer {
+.mainContainer {
 	width: 960px;
-	border:1px solid black;
 	margin: 30px auto;
 	position: relative;
 }
@@ -76,6 +107,7 @@ section {
 	background-color: #fff;
 	padding: 20px;
 	padding-bottom: 15px;
+	float: left;
 }
 
 #profilePic {
@@ -90,3 +122,17 @@ section p {
 	line-height: 25px;
 	text-align: justify;
 }
+
+/* Aside */
+aside {
+	border: 2px solid #e6e4df;
+	float: right;
+	background-color: #fff;
+}
+
+aside p {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
