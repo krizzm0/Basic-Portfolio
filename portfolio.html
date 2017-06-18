@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Portfolio</title>
 </head>
+
 <body>
+
 	<header>
-		<h1>Kris Mo</h1>
-		<nav>
-			<ul>
-				<li><a href='#'>About</a></li>
-				<li><a href='#'>Portfolio</a></li>
-				<li><a href='#'>Contact</a></li>
-			</ul>
-		</nav>
+		<div id="headerContainer">
+
+			<div id='nameHeader'>
+				<h1>Kris Mo</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href='index.html'>About</a></li>
+					<li><a href='portfolio.html'>Portfolio</a></li>
+					<li id='contactNav'><a href='contact.html'>Contact</a></li>
+				</ul>
+			</nav>
+			
+		</div>
 	</header>
 
-	<section>
-		<h2>Portfolio</h2>
+	<div class='mainContainer clearfix'>
+		<section>
+			<h2>Portfolio</h2>
 
-		<div id="hangmanImage">
-			<div id="hangmanContent">
-				Hangman
+			<div id="hangmanImage">
+				<div id="hangmanContent">
+					<h4>Hangman</h4>
+				</div>
 			</div>
-		</div>
 
-		<div id="rpgImage">
-			<div id="rpgContent">
-				RPG Game
+			<div id="rpgImage">
+				<div id="rpgContent">
+					<h4>RPG Game</h4>
+				</div>
 			</div>
-		</div>
 
-		<div id="triviaImage">
-			<div id="triviaContent">
-				Trivia Game
+			<div id="triviaImage">
+				<div id="triviaContent">
+					<h4>Trivia Game</h4>
+				</div>
 			</div>
-		</div>
 
-		<div id="widgetImage">
-			<div id="widgetContent">
-				Rutgers Info Widget
+			<div id="widgetImage">
+				<div id="widgetContent">
+					<h4>Rutgers Info Widget</h4>
+				</div>
 			</div>
-		</div>
 
-		<div id="rockpaperscissorsImage">
-			<div id="rpsContent">
-				Rock Paper Scissors
+			<div id="rockpaperscissorsImage">
+				<div id="rpsContent">
+					<h4>Rock Paper Scissors</h4>
+				</div>
 			</div>
-		</div>
-	</section>
 
-	<aside>
-		<h3>Connect with Me</h3>
-		<p>
-			<img src='#' alt='Facebook' />
-			<img src='#' alt='Linkedin' />
-			<img src='#' alt='Instagram' />
-		</p>
-	</aside>
+		</section>
+
+		<aside>
+			<h3>Connect with Me</h3>
+			<p>
+				<img src='assets/images/facebook.png' alt='Facebook' />
+				<img src='assets/images/linkedin.png' alt='Linkedin' />
+				<img src='assets/images/instagram.png' alt='Instagram' />
+				<img src='assets/images/github.png' alt='GitHub' />
+			</p>
+		</aside>
+
+	</div>
 
 	<footer>
 		<p id='footer'>&copy; Copyright 2017 Kris Mo</p>
 	</footer>
+
 </body>
 </html>
